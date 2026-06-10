@@ -1,0 +1,31 @@
+# Virtual environment
+lut/
+
+# Trained models / checkpoints (large binaries)
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Datasets (large)
+data/
+FiveK_original/
+
+# Generated outputs & logs
+outputs/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Stray sample/source images not part of the project
+微信图片_*.jpg
