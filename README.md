@@ -100,13 +100,15 @@ own hyperparameters, so inference/export tools reconstruct the exact model autom
 
 ## 📊 Results
 
-> _Sample comparisons coming soon._
+**One photo, four learned looks.** The same content image is run through LUTs predicted from
+four different style references — each grade is learned from a *separate scene* and generalizes
+to this one, ranging from warm magenta dusk to cool blue twilight:
 
-<!--
-| Content | Style reference | Stylized output |
-|:---:|:---:|:---:|
-| ![](docs/content.png) | ![](docs/style.png) | ![](docs/output.png) |
--->
+| Original | Candlelight | Kodak 2395 | Fuji REALA | NightFromDay |
+|:---:|:---:|:---:|:---:|:---:|
+| ![](docs/content.png) | ![](docs/look_candlelight.png) | ![](docs/look_kodak2395.png) | ![](docs/look_fuji_reala.png) | ![](docs/look_nightfromday.png) |
+
+_Generated with `infer.py`; each LUT can also be exported to `.cube` via `export_lut.py`._
 
 ## 📁 Project layout
 
